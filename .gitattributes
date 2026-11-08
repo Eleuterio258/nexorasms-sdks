@@ -1,0 +1,10 @@
+# Pacote Composer (Packagist): só o SDK PHP vai no arquivo instalado.
+/dotnet export-ignore
+/java export-ignore
+/node export-ignore
+/go export-ignore
+/php/tests export-ignore
+/php/phpunit.xml.dist export-ignore
+/php/phpstan.neon.dist export-ignore
+/SPEC.md export-ignore
+/.gitattributes export-ignore

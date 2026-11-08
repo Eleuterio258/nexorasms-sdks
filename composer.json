@@ -1,0 +1,45 @@
+{
+    "name": "e258tech/nexorasms",
+    "description": "SDK oficial do NexoraSMS para PHP: envio de SMS, WhatsApp e email, contactos, carteira, campanhas e verificação de webhooks.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "nexorasms",
+        "sms",
+        "whatsapp",
+        "email",
+        "mozambique",
+        "moçambique",
+        "e258tech",
+        "api",
+        "sdk",
+        "webhooks"
+    ],
+    "homepage": "https://nexorasms.e258tech.tech/docs/api",
+    "authors": [
+        {
+            "name": "E258Tech",
+            "homepage": "https://e258tech.tech"
+        }
+    ],
+    "support": {
+        "docs": "https://nexorasms.e258tech.tech/docs/api",
+        "source": "https://github.com/Eleuterio258/nexorasms-sdks",
+        "issues": "https://github.com/Eleuterio258/nexorasms-sdks/issues"
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "suggest": {
+        "psr/http-client": "Para usar um cliente PSR-18 próprio através de Psr18Transport.",
+        "psr/http-factory": "Necessário com Psr18Transport (fábricas PSR-17 de pedidos e streams)."
+    },
+    "autoload": {
+        "psr-4": {
+            "E258Tech\\NexoraSms\\": "php/src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
