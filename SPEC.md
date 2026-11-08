@@ -1,8 +1,8 @@
-# Especificação comum dos SDKs do NexoraSMS (C#, Java, Node.js, Go)
+# Especificação comum dos SDKs do NexoraSMS (C#, Java, Node.js, Go, PHP)
 
 Os quatro SDKs têm a mesma forma e o mesmo comportamento, adaptados aos costumes de cada linguagem.
-A API está descrita para integradores em `../docs/INTEGRACAO_API.md` (fonte de verdade dos formatos).
-Versão inicial de todos: **0.1.0**. Documentação (README) em português de Portugal; código e comentários em inglês.
+A API está descrita para integradores em https://nexorasms.e258tech.tech/docs/api (no repositório do NexoraSMS: `docs/INTEGRACAO_API.md`, fonte de verdade dos formatos). Repositório público dos SDKs: https://github.com/Eleuterio258/nexorasms-sdks.
+Versão inicial de todos: **0.1.0**. Licença **MIT** (`LICENSE`, «Copyright (c) 2026 E258Tech») em cada SDK. Maven: `groupId` `tech.e258tech`, pacote `tech.e258tech.nexorasms`. Documentação (README) em português de Portugal; código e comentários em inglês.
 
 ## 1. Padrão builder
 

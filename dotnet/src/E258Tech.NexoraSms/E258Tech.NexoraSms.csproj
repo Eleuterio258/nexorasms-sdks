@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>E258Tech.NexoraSms</RootNamespace>
+    <AssemblyName>E258Tech.NexoraSms</AssemblyName>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Deterministic>true</Deterministic>
+
+    <PackageId>E258Tech.NexoraSms</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>E258Tech</Authors>
+    <Company>E258Tech</Company>
+    <Product>NexoraSMS</Product>
+    <Description>SDK oficial do NexoraSMS para .NET: SMS, WhatsApp e email, contactos, carteira, campanhas e webhooks.</Description>
+    <PackageTags>sms;whatsapp;email;nexorasms;e258tech</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright (c) 2026 E258Tech</Copyright>
+    <PackageProjectUrl>https://nexorasms.e258tech.tech/docs/api</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Eleuterio258/nexorasms-sdks</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" Visible="false" />
+    <InternalsVisibleTo Include="E258Tech.NexoraSms.Tests" />
+  </ItemGroup>
+
+</Project>

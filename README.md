@@ -6,9 +6,10 @@ Bibliotecas oficiais para integrar outros sistemas com a API do NexoraSMS. Todas
 | Linguagem | Pasta | Pacote |
 |---|---|---|
 | C# / .NET 8+ | [dotnet](dotnet) | `E258Tech.NexoraSms` |
-| Java 17+ | [java](java) | `tech.e258:nexorasms-sdk` |
+| Java 17+ | [java](java) | `tech.e258tech:nexorasms-sdk` |
 | Node.js 18+ (com tipos TypeScript) | [node](node) | `@e258tech/nexorasms` |
-| Go 1.22+ | [go](go) | `github.com/Eleuterio258/NexoraSMS/sdks/go` |
+| Go 1.22+ | [go](go) | `github.com/Eleuterio258/nexorasms-sdks/go` |
+| PHP 8.1+ | [php](php) | `e258tech/nexorasms` (Composer) |
 
 O que todas fazem:
 
@@ -20,7 +21,7 @@ O que todas fazem:
 - erros tipados (saldo insuficiente, validação, autenticação…);
 - verificação da assinatura dos webhooks (`X-Nexora-Signature`).
 
-Guia da API: [../docs/INTEGRACAO_API.md](../docs/INTEGRACAO_API.md) · https://nexorasms.e258tech.tech/docs/api
+Guia da API: https://nexorasms.e258tech.tech/docs/api
 
 Exemplo (Node.js):
 
@@ -29,5 +30,7 @@ const nexora = NexoraSmsClient.builder().publicKey(pk).apiKey(ak).build()
 await nexora.messages.send(SendMessageRequest.builder().sms('Olá!').to('+258841234567').build())
 ```
 
-As bibliotecas ainda não estão publicadas nos registos (NuGet, Maven Central, npm); instalam-se a partir deste
-repositório, como explica o README de cada uma.
+Repositório público: https://github.com/Eleuterio258/nexorasms-sdks. As bibliotecas ainda não estão publicadas nos
+registos (NuGet, Maven Central, npm, Packagist); até lá instalam-se a partir deste repositório, como explica o README de cada uma.
+
+Licença: [MIT](LICENSE).

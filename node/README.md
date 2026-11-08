@@ -10,7 +10,7 @@ Documentação completa da API: https://nexorasms.e258tech.tech/docs/api
 Enquanto o pacote não está publicado no npm, instale-o a partir do repositório:
 
 ```bash
-npm install ./caminho/para/NexoraSMS/sdks/node
+npm install ./caminho/para/nexorasms-sdks/node
 ```
 
 ## Configuração (builder)

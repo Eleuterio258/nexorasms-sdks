@@ -5,10 +5,42 @@
   "type": "module",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
-  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.js" } },
-  "files": ["src", "README.md"],
-  "engines": { "node": ">=18" },
-  "scripts": { "test": "node --test test/*.test.js" },
-  "keywords": ["sms", "whatsapp", "email", "nexorasms", "e258tech"],
-  "license": "UNLICENSED"
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "sms",
+    "whatsapp",
+    "email",
+    "nexorasms",
+    "e258tech"
+  ],
+  "license": "MIT",
+  "author": "E258Tech (https://e258tech.tech)",
+  "homepage": "https://nexorasms.e258tech.tech/docs/api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eleuterio258/nexorasms-sdks.git",
+    "directory": "node"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/Eleuterio258/nexorasms-sdks/issues"
+  }
 }
