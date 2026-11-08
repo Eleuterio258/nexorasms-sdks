@@ -1,0 +1,14 @@
+{
+  "name": "@e258tech/nexorasms",
+  "version": "0.1.0",
+  "description": "SDK oficial do NexoraSMS para Node.js: SMS, WhatsApp e email, contactos, carteira e webhooks.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.js" } },
+  "files": ["src", "README.md"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["sms", "whatsapp", "email", "nexorasms", "e258tech"],
+  "license": "UNLICENSED"
+}
